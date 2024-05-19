@@ -1,0 +1,33 @@
+{
+  "name": "@rviso/commitlint-config",
+  "version": "0.1.0",
+  "description": "commitlint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rviso/rviso-commitlint-config.git"
+  },
+  "keywords": [
+    "git",
+    "commitlint",
+    "config"
+  ],
+  "author": "lingann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rviso/rviso-commitlint-config/issues"
+  },
+  "homepage": "https://github.com/rviso/rviso-commitlint-config#readme",
+  "peerDependencies": {
+    "@commitlint/cli": ">=17.8.1"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.8.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.1"
+  }
+}
